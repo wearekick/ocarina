@@ -1,0 +1,19 @@
+{
+  "name": "ocarina",
+  "version": "1.0.0",
+  "description": "Ocarina is a collection of stylesheets, written in SASS to support the Kick branding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearekick/ocarina.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wearekick/ocarina/issues"
+  },
+  "homepage": "https://github.com/wearekick/ocarina#readme"
+}

@@ -1,3 +1,3 @@
-# Ocarina Styles
+# Ocarina
 
-Ocarina is a collection of stylesheets, written in SASS to support the Kick branding.
+Styleguides for Kick Interactive websites and applications.

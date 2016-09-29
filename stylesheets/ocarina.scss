@@ -1,7 +1,6 @@
 /**********************************************************
  *
- *  ocarina-styles
- *  (c) 2016 Kick Interactive
+ *  Ocarina
  *
  **********************************************************/
 
@@ -11,11 +10,17 @@
 @import "core/_colors";
 @import "core/_sizing";
 
+// Structure
+@import "core/_layout";
+
 // Typography
-@import "core/_typography";
+@import "core/_type";
 
 /**********************************************************/
 
 //** Components
 
 /**********************************************************/
+
+@import "components/_button";
+@import "components/_tree";
