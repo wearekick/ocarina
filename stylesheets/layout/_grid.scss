@@ -1,0 +1,20 @@
+//== Containers
+//
+//##
+
+.#{$prefix}-container {
+  padding-left:  floor(($gutter-size / 2));
+  padding-right: ceil(($gutter-size / 2));
+  @include clearfix;
+  @include center;
+
+  @media (min-width: $viewport-sm-min) {
+    width: $container-sm;
+  }
+  @media (min-width: $viewport-md-min) {
+    width: $container-md;
+  }
+  @media (min-width: $viewport-lg-min) {
+    width: $container-lg;
+  }
+}

@@ -1,0 +1,28 @@
+//== Class prefix
+//
+//## The first few characters to namespace all classes
+
+$prefix: "oc";
+
+
+//== Colours
+//
+//##
+
+//** Brand colours
+$kick-red: #B72705;
+$kick-green: #759C00;
+$kick-blue: #006EB5;
+$kick-black: #000;
+
+//** Map to defaults
+$primary: $kick-red;
+
+
+//== Typography
+//
+//##
+
+$base-font-family: 'Lato', sans-serif;
+$heading-font-family: 'Lato', sans-serif;
+$heading-font-weight: 300;

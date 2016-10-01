@@ -1,10 +1,13 @@
 {
   "name": "ocarina",
   "version": "1.0.0",
-  "description": "Ocarina is a collection of stylesheets, written in SASS to support the Kick branding.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jekyll:serve": "jekyll serve",
+    "sass:watch": "sass --watch stylesheets/main.scss:_site/stylesheets/ocarina.css",
+    "start": "npm run sass:watch & npm run jekyll:serve",
+    "test": ""
   },
   "repository": {
     "type": "git",

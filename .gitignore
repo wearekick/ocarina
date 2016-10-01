@@ -1,2 +1,5 @@
+_site
 .sass-cache/
-*.css.map
+Gemfile.lock
+node_modules
+npm-debug.log

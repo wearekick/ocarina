@@ -1,0 +1,16 @@
+//== Floating
+//
+//##
+
+.#{$prefix}-clearfix {
+  @include clearfix;
+}
+.#{$prefix}-center {
+  @include center;
+}
+.#{$prefix}-right {
+  float: right !important;
+}
+.#{$prefix}-left {
+  float: left !important;
+}
