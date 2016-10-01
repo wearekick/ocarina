@@ -2,15 +2,15 @@
 //
 //##
 
-.clearfix {
+.#{$prefix}-clearfix {
   @include clearfix;
 }
-.center-block {
+.#{$prefix}-center {
   @include center;
 }
-.pull-right {
+.#{$prefix}-right {
   float: right !important;
 }
-.pull-left {
+.#{$prefix}-left {
   float: left !important;
 }

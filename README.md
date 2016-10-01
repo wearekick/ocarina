@@ -1,9 +1,9 @@
 # Ocarina
 
-Styleguides for Kick Interactive websites and applications.
+Styleguides for websites and applications built with Kick branding.
 
 
-## Docs
+## Documentation
 
 ### Setting up locally
 
@@ -19,6 +19,8 @@ If you don't have Ruby installed, you can install using [https://rvm.io](RVM) or
 gem install bundler
 bundle install
 ```
+
+### Setting up locally
 
 To run a local development server 
 
