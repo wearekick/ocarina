@@ -13,7 +13,7 @@ To run this locally on you computer you will need Ruby version 2.0.0, or higher.
 
 ```
 # Check version of Ruby
-ruby --version
+ruby -v
 ```
 If it returns a lower number or don't have Ruby installed, you can get version 2 using [RVM](https://rvm.io) or directly from the [Ruby website](https://www.ruby-lang.org/en/downloads/).
 
