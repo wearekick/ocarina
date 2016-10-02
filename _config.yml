@@ -1,7 +1,7 @@
 # Site settings
 title: "Ocarina"
 email: hello@wearekick.co.uk
-
+url: "http://wearekick.github.com/ocarina"
 
 # Directories
 source:       ./docs
@@ -12,7 +12,7 @@ includes_dir: _includes
 # Handling Reading
 safe:         false
 include:      []
-exclude:      ['config.ru', 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile']
+exclude:      []
 keep_files:
   - stylesheets/ocarina.css
   - stylesheets/ocarina.map.css
@@ -25,5 +25,7 @@ highlighter: rouge
 
 # Serving
 detach:  false
+port:    4000
+host:    127.0.0.1
 baseurl: "" # does not include hostname
 show_dir_listing: false
