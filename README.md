@@ -1,26 +1,31 @@
 # Ocarina
 
-Styleguides for websites and applications built with Kick branding.
+Ocarina is a collection of style guides for [Kick Interactive](http://www.wearekick.co.uk) written in [Sass](http://sass-lang.com/) and JavaScript.
 
 
 ## Documentation
 
-### Setting up locally
+The documentation for these style guides is built for [GitHub pages](https://pages.github.com/), which uses the static site generator [Jekyll](https://jekyllrb.com/).
 
-Check you have Ruby 2.0.0 or higher
+### Installation
 
-```
+To run this locally on you computer you will need Ruby version 2.0.0, or higher.
+
+```ruby
+# Check version of Ruby
 ruby --version
-ruby 2.X.X
 ```
-If you don't have Ruby installed, you can install using [RVM](https://rvm.io) or directly from the [ruby website](https://www.ruby-lang.org/en/downloads/).
+If it returns a lower number or don't have Ruby installed, you can get version 2 using [RVM](https://rvm.io) or directly from the [Ruby website](https://www.ruby-lang.org/en/downloads/).
+
+You will also need to have NodeJS. This can be installed using [NVM](https://github.com/creationix/nvm) or directly from the [Node.js website](https://nodejs.org/en/download/).
+
+Once you have these you will need to install the project's dependencies.
 
 ```
-gem install bundler
-bundle install
+npm install
 ```
 
-### Setting up locally
+### Developing
 
 To run a local development server 
 
