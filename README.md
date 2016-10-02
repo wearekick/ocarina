@@ -9,7 +9,7 @@ The documentation for these style guides is built for [GitHub pages](https://pag
 
 ### Installation
 
-To run this locally on you computer you will need Ruby version 2.0.0, or higher.
+To run this locally you will need Ruby version 2.0.0, or higher.
 
 ```
 # Check version of Ruby
@@ -27,7 +27,7 @@ npm install
 
 ### Developing
 
-To run a local development server 
+To run a local development server use the following command and point your browser to `http://localhost:4000`.
 
 ```
 npm start
