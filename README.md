@@ -11,7 +11,7 @@ The documentation for these style guides is built for [GitHub pages](https://pag
 
 To run this locally on you computer you will need Ruby version 2.0.0, or higher.
 
-```ruby
+```
 # Check version of Ruby
 ruby --version
 ```
