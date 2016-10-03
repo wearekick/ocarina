@@ -2,14 +2,19 @@
 
 Ocarina is a collection of style guides for [Kick Interactive](http://www.wearekick.co.uk) written in [Sass](http://sass-lang.com/) and JavaScript.
 
+```
+git clone git@github.com:wearekick/ocarina.git
+cd ocarina
+```
+
 
 ## Documentation
 
-The documentation for Ocarina is availble online at [http://wearekick.github.com/ocarina](wearekick.github.com/ocarina).
+An online version of the documentation for Ocarina is hosted on [GitHub pages](https://pages.github.com/) and available at [wearekick.github.com/ocarina](http://wearekick.github.com/ocarina).
 
 ### Requirements
 
-Ocarina's documentation is built for [GitHub pages](https://pages.github.com/). This uses the static site generator [Jekyll](https://jekyllrb.com/) which runs on Ruby. To develop this locally you will need Ruby version 2.0.0, or higher.
+Ocarina's documentation is built using the static site generator [Jekyll](https://jekyllrb.com/) which runs on Ruby. To develop this locally you will need Ruby version 2.0.0, or higher.
 
 ```
 # Check version of Ruby
