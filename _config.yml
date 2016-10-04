@@ -7,27 +7,8 @@ repository: wearekick/ocarina
 # Directories
 source:       ./docs
 destination:  ./_site
-layouts_dir:  _layouts
-includes_dir: _includes
-
-# Handling Reading
-safe:         false
-include:      []
-exclude:      []
 keep_files:
   - stylesheets/ocarina.css
   - stylesheets/ocarina.map.css
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 sass:
   sass_dir: docs/_sass
-
-# Conversion
-markdown:    kramdown
-highlighter: rouge
-
-# Serving
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-show_dir_listing: false
