@@ -27,7 +27,7 @@ markdown:    kramdown
 highlighter: rouge
 
 # Serving
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-show_dir_listing: true
+# port:    4000
+# host:    127.0.0.1
+# baseurl: "" # does not include hostname
+# show_dir_listing: false
