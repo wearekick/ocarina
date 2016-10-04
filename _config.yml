@@ -19,8 +19,8 @@ keep_files:
   - stylesheets/ocarina.map.css
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-# sass:
-#   sass_dir: docs/_sass
+sass:
+  sass_dir: docs/_sass
 
 # Conversion
 markdown:    kramdown
