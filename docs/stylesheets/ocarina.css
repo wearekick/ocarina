@@ -493,7 +493,8 @@ strong {
     clear: both; }
   @media (min-width: 768px) {
     .oc-container {
-      width: 750px; } }
+      width: 750px;
+      max-width: 100%; } }
   @media (min-width: 992px) {
     .oc-container {
       width: 970px; } }

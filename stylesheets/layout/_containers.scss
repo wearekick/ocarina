@@ -9,6 +9,7 @@
   @include center;
   @media (min-width: $viewport-sm-min) {
     width: $container-sm;
+    max-width: 100%;
   }
   @media (min-width: $viewport-md-min) {
     width: $container-md;
