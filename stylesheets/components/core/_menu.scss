@@ -1,0 +1,57 @@
+//== Menu
+//
+//##
+
+.#{$prefix}-menu {
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: .3rem;
+  margin: 2rem 0;
+  font-size: $menu-font-size;
+}
+
+.#{$prefix}-menu-heading {
+  font-weight: 700;
+  display: block;
+  padding: 0.8rem 1rem;
+  text-shadow: 0 1px 0 #fff;
+  border-bottom: 1px solid #eee;
+  color: $menu-text-color;
+  background-color: #f9f9f9;
+}
+
+.#{$prefix}-menu-sub-heading {
+  font-size: 0.8em;
+  font-weight: 700;
+  display: block;
+  padding: 0.8rem 1rem;
+  text-shadow: 0 1px 0 #fff;
+  border-bottom: 1px solid #eee;
+  color: $menu-text-color;
+  background-color: #f9f9f9;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.#{$prefix}-menu-item {
+  font-weight: $menu-font-weight;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding: 0.8rem 1rem;
+  text-shadow: 0 1px 0 #fff;
+  border-bottom: 1px solid #eee;
+  color: $menu-text-color;
+
+  &:hover {
+    background-color: #f9f9f9;
+  }
+
+  &.active {
+    font-weight: 700;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: $menu-active-color;
+  }
+}

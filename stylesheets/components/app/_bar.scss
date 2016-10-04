@@ -4,8 +4,8 @@
 
 .#{$prefix}-app-bar {
   background-color: $primary;
-  padding: 1em 0;
   color: $text-color-on-primary;
+  margin: 0 0 2rem;
 
   a {
     color: $text-color-on-primary;

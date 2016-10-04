@@ -1,5 +1,5 @@
 .example {
-  border: 1px solid #999;
+  border: 1px solid #ccc;
   padding: 1.4rem 2rem;
   border-radius: .4rem .4rem 0 0;
 }
@@ -7,10 +7,10 @@
 .highlight {
   margin-left: 0;
   margin-right: 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.61;
   border-radius: .4rem;
-  border: 1px solid #999;
+  border: 1px solid #ccc;
   padding: 1.4rem 2rem;
 
   .example + & {
@@ -23,14 +23,14 @@
     margin: 0;
     padding: 0;
     code {
-      white-space: pre-line;
-      font-family: Monaco, Consolas, sans-serif;
+      white-space: pre;
+      font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
       font-weight: 400;
     }
   }
 
   /* Github Theme */
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   .c { color: #999988; font-style: italic } /* Comment */
   .err { color: #a61717; background-color: #e3d2d2 } /* Error */
   .k { color: #000000; font-weight: bold } /* Keyword */

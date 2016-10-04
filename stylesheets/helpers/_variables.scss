@@ -18,7 +18,7 @@ $text-color-on-primary: #fff !default;
 //** Font Family
 $base-font-family: 'Open Sans', sans-serif !default;
 
-//** Font Sizes
+//** Core Font Sizes
 $base-font-size: 62.5% !default;
 $heading-1-font-size: 4em !default;
 $heading-2-font-size: 3em !default;
@@ -32,10 +32,11 @@ $paragraph-font-size: 1.6em !default;
 $golden-ratio: 1.618 !default;
 $base-line-height: $golden-ratio;
 
-//** Font Weights
+//** Core Font Weights
 $base-font-weight: 400 !default;
 $bold-font-weight: 700 !default;
 $heading-font-weight: 700 !default;
+
 
 
 //== Media Queries
@@ -62,3 +63,15 @@ $gutter-size:               30px !default;
 $container-sm:              (720px + $gutter-size) !default;
 $container-md:              (940px + $gutter-size) !default;
 $container-lg:              (1140px + $gutter-size) !default;
+
+
+
+//== Components
+//
+//##
+
+//** Menu
+$menu-font-size: 1.6rem !default;
+$menu-font-weight: 400 !default;
+$menu-text-color: $body-text-color;
+$menu-active-color: $primary;
