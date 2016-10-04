@@ -4,23 +4,31 @@
 
 .#{$prefix}-app-bar {
   background-color: $app-bar-background-color;
-  color: $app-bar-text-color;
   font-size: $app-bar-font-size;
   padding: 1em 0;
   margin: 0 0 2rem;
   a {
-    color: $text-color-on-primary;
     text-decoration: none;
   }
 }
 
 .#{$prefix}-app-bar-title {
-
+  color: $app-bar-title-color;
 }
 
 .#{$prefix}-app-bar-nav {
   a {
     display: inline-block;
-    padding-left: 1em;
+    color: $app-bar-nav-color;
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+    &.active {
+      color: $app-bar-nav-active-color;
+      font-weight: 500;
+    }
+    &:hover {
+      color: $app-bar-nav-active-color;
+    }
   }
 }

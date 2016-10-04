@@ -549,16 +549,24 @@ strong {
 
 .oc-app-bar {
   background-color: #B72705;
-  color: #fff;
   font-size: 1.6rem;
   padding: 1em 0;
   margin: 0 0 2rem; }
   .oc-app-bar a {
-    color: #fff;
     text-decoration: none; }
+
+.oc-app-bar-title {
+  color: #fff; }
 
 .oc-app-bar-nav a {
   display: inline-block;
-  padding-left: 1em; }
+  color: rgba(255, 255, 255, 0.5); }
+  .oc-app-bar-nav a:not(:last-child) {
+    margin-right: 1em; }
+  .oc-app-bar-nav a.active {
+    color: #fff;
+    font-weight: 500; }
+  .oc-app-bar-nav a:hover {
+    color: #fff; }
 
 /*# sourceMappingURL=ocarina.css.map */

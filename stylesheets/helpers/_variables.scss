@@ -57,12 +57,12 @@ $viewport-md-max:              ($viewport-lg-min - 1) !default;
 //
 //##
 
-$columns:                   12 !default;
-$gutter-size:               30px !default;
+$columns: 12 !default;
+$gutter-size: 30px !default;
 
-$container-sm:              (720px + $gutter-size) !default;
-$container-md:              (940px + $gutter-size) !default;
-$container-lg:              (1140px + $gutter-size) !default;
+$container-sm: (720px + $gutter-size) !default;
+$container-md: (940px + $gutter-size) !default;
+$container-lg: (1140px + $gutter-size) !default;
 
 
 
@@ -78,5 +78,7 @@ $menu-active-color: $primary;
 
 //** App Bar
 $app-bar-background-color: $primary;
-$app-bar-text-color: $text-color-on-primary;
+$app-bar-title-color: $text-color-on-primary;
+$app-bar-nav-active-color: $text-color-on-primary;
+$app-bar-nav-color: rgba($app-bar-nav-active-color, 0.5);
 $app-bar-font-size: 1.6rem !default;
