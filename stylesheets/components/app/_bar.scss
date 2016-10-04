@@ -5,5 +5,10 @@
 .#{$prefix}-app-bar {
   background-color: $primary;
   padding: 1em 0;
-  color: #fff;
+  color: $text-color-on-primary;
+
+  a {
+    color: $text-color-on-primary;
+    text-decoration: none;
+  }
 }

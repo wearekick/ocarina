@@ -9,30 +9,28 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: $heading-1-font-size;
-  line-height: $heading-1-line-height;
 }
 
 h2 {
   font-size: $heading-2-font-size;
-  line-height: $heading-2-line-height;
 }
 
 h3 {
   font-size: $heading-3-font-size;
-  line-height: $heading-3-line-height;
 }
 
 h4 {
   font-size: $heading-4-font-size;
-  line-height: $heading-4-line-height;
 }
 
 h5 {
   font-size: $heading-5-font-size;
-  line-height: $heading-5-line-height;
 }
 
 p {
   font-size: $paragraph-font-size;
-  line-height: $paragraph-line-height;
+}
+
+strong {
+  font-weight: $bold-font-weight;
 }

@@ -19,14 +19,14 @@ html {
 
 //** Html/Body Reset
 html {
-  font-size: 10px;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 body {
   font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+  font-weight: $base-font-weight;
   color: $body-text-color;
   background-color: $body-bg-color;
 }

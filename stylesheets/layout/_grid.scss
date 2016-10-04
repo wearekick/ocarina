@@ -7,7 +7,6 @@
   padding-right: ceil(($gutter-size / 2));
   @include clearfix;
   @include center;
-
   @media (min-width: $viewport-sm-min) {
     width: $container-sm;
   }

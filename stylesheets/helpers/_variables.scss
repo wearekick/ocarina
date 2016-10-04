@@ -7,33 +7,35 @@ $primary: #999 !default;
 $body-text-color: #333 !default;
 $body-bg-color: #fff !default;
 
+$text-color-on-primary: #fff !default;
+
+
 
 //== Typography
 //
 //##
 
+//** Font Family
 $base-font-family: 'Open Sans', sans-serif !default;
-$base-font-size: 16px !default;
 
-$heading-font-weight: 400 !default;
-
-//** Font Sizing
-$heading-1-font-size: 5rem !default;
-$heading-2-font-size: 4rem !default;
-$heading-3-font-size: 3rem !default;
-$heading-4-font-size: 2rem !default;
-$heading-5-font-size: 1.6rem !default;
-$paragraph-font-size: 1rem !default;
+//** Font Sizes
+$base-font-size: 62.5% !default;
+$heading-1-font-size: 4em !default;
+$heading-2-font-size: 3em !default;
+$heading-3-font-size: 2.5em !default;
+$heading-4-font-size: 2em !default;
+$heading-5-font-size: 1.6em !default;
+$heading-5-font-size: 1.4em !default;
+$paragraph-font-size: 1.6em !default;
 
 //** Line Heights
 $golden-ratio: 1.618 !default;
 $base-line-height: $golden-ratio;
-$heading-1-line-height: $heading-1-font-size * $golden-ratio;
-$heading-2-line-height: $heading-2-font-size * $golden-ratio;
-$heading-3-line-height: $heading-3-font-size * $golden-ratio;
-$heading-4-line-height: $heading-4-font-size * $golden-ratio;
-$heading-5-line-height: $heading-5-font-size * $golden-ratio;
-$paragraph-line-height: $paragraph-font-size * $golden-ratio;
+
+//** Font Weights
+$base-font-weight: 400 !default;
+$bold-font-weight: 700 !default;
+$heading-font-weight: 700 !default;
 
 
 //== Media Queries
@@ -47,6 +49,7 @@ $viewport-lg-min:              1200px !default;
 // So media queries don't overlap when required, provide a maximum
 $viewport-sm-max:              ($viewport-md-min - 1) !default;
 $viewport-md-max:              ($viewport-lg-min - 1) !default;
+
 
 
 //== Grid Layout

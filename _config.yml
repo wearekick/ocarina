@@ -2,6 +2,7 @@
 title: "Ocarina"
 email: hello@wearekick.co.uk
 url: "http://wearekick.github.com/ocarina"
+repository: wearekick/ocarina
 
 # Directories
 source:       ./docs

@@ -2,6 +2,12 @@
 layout: dom
 ---
 <div class="oc-container">
-  {% include docs/nav.html %}
-  {{content}}
+  <div class="oc-columns">
+    <div class="oc-column oc-one-fifth">
+      {% include docs/nav.html %}
+    </div>
+    <div class="oc-column oc-four-fifths">
+      {{content}}
+    </div>
+  </div>
 </div>

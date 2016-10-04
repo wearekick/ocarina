@@ -1,0 +1,45 @@
+//== Columns
+//
+//##
+
+.#{$prefix}-columns {
+  margin-right: -$gutter-size;
+  margin-left: -$gutter-size;
+  @include clearfix;
+}
+
+.#{$prefix}-column {
+  float: left;
+  padding-right: $gutter-size;
+  padding-left: $gutter-size;
+}
+
+.#{$prefix}-one-third {
+  width: 33.333333%
+}
+.#{$prefix}-two-thirds {
+  width: 66.666667%;
+}
+
+.#{$prefix}-one-quarter {
+  width: 25%;
+}
+.#{$prefix}-one-half {
+  width: 50%;
+}
+.#{$prefix}-three-quarters {
+  width: 75%;
+}
+
+.#{$prefix}-one-fifth {
+  width: 20%;
+}
+.#{$prefix}-two-fifths {
+  width: 40%;
+}
+.#{$prefix}-three-fifths {
+  width: 60%;
+}
+.#{$prefix}-four-fifths {
+  width: 80%;
+}
