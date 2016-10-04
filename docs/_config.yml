@@ -14,9 +14,7 @@ includes_dir: _includes
 safe:         false
 include:      []
 exclude:      []
-keep_files:
-  - stylesheets/ocarina.css
-  - stylesheets/ocarina.map.css
+keep_files:   []
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 sass:
