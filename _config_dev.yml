@@ -1,5 +1,5 @@
 # Local site settings
-url: "http://localhost:4000"
+url: "http://localhost:4000/"
 # Directories
 source:       ./docs
 destination:  ./_site
