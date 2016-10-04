@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "gem install bundler && bundle install",
-    "jekyll:serve": "jekyll serve --config ./_config.yml,./_config_dev.yml",
+    "jekyll:serve": "jekyll serve --config ./_config_dev.yml",
     "sass:watch": "sass --watch stylesheets/main.scss:docs/stylesheets/ocarina.css",
     "start": "npm run sass:watch & npm run jekyll:serve",
     "test": ""
