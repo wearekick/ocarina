@@ -20,7 +20,7 @@ keep_files:
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 sass:
-  sass_dir: ./_sass
+  sass_dir: docs/_sass
 
 # Conversion
 markdown:    kramdown
