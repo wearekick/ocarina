@@ -20,14 +20,14 @@ keep_files:
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 sass:
-  sass_dir: docs/_sass
+  sass_dir: _sass
 
 # Conversion
 markdown:    kramdown
 highlighter: rouge
 
 # Serving
-# port:    4000
-# host:    127.0.0.1
-# baseurl: "" # does not include hostname
-# show_dir_listing: false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+show_dir_listing: false
