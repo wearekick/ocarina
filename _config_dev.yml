@@ -1,4 +1,10 @@
 # Local site settings
 url: "http://localhost:4000"
+# Directories
+source:       ./docs
+destination:  ./_site
+keep_files:
+  - stylesheets/ocarina.css
+  - stylesheets/ocarina.map.css
 sass:
   sass_dir: _sass

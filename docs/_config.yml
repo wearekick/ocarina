@@ -1,7 +1,7 @@
 # Site settings
 title: "Ocarina"
 email: hello@wearekick.co.uk
-url: "https://wearekick.github.com/ocarina"
+url: "https://wearekick.github.com/ocarina/"
 repository: wearekick/ocarina
 
 sass:
