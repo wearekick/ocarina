@@ -550,9 +550,15 @@ strong {
 .oc-app-bar {
   background-color: #B72705;
   color: #fff;
+  font-size: 1.6rem;
+  padding: 1em 0;
   margin: 0 0 2rem; }
   .oc-app-bar a {
     color: #fff;
     text-decoration: none; }
+
+.oc-app-bar-nav a {
+  display: inline-block;
+  padding-left: 1em; }
 
 /*# sourceMappingURL=ocarina.css.map */

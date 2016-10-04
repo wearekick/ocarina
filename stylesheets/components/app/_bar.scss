@@ -3,12 +3,24 @@
 //##
 
 .#{$prefix}-app-bar {
-  background-color: $primary;
-  color: $text-color-on-primary;
+  background-color: $app-bar-background-color;
+  color: $app-bar-text-color;
+  font-size: $app-bar-font-size;
+  padding: 1em 0;
   margin: 0 0 2rem;
-
   a {
     color: $text-color-on-primary;
     text-decoration: none;
+  }
+}
+
+.#{$prefix}-app-bar-title {
+
+}
+
+.#{$prefix}-app-bar-nav {
+  a {
+    display: inline-block;
+    padding-left: 1em;
   }
 }
