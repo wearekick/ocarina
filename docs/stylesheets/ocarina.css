@@ -418,6 +418,9 @@ h5 {
 
 p {
   font-size: 1.6em; }
+  p.oc-lead {
+    font-size: 1.8em;
+    font-weight: 300; }
 
 strong {
   font-weight: 700; }

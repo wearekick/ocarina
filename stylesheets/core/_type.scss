@@ -33,6 +33,11 @@ h5 {
 
 p {
   font-size: $paragraph-font-size;
+
+  &.#{$prefix}-lead {
+    font-size: $lead-paragraph-font-size;
+    font-weight: $lead-paragraph-font-weight;
+  }
 }
 
 strong {

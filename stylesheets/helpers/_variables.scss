@@ -27,6 +27,7 @@ $heading-4-font-size: 2em !default;
 $heading-5-font-size: 1.6em !default;
 $heading-5-font-size: 1.4em !default;
 $paragraph-font-size: 1.6em !default;
+$lead-paragraph-font-size: 1.8em !default;
 
 //** Line Heights
 $golden-ratio: 1.618 !default;
@@ -36,7 +37,7 @@ $base-line-height: $golden-ratio;
 $base-font-weight: 400 !default;
 $bold-font-weight: 700 !default;
 $heading-font-weight: 700 !default;
-
+$lead-paragraph-font-weight: 400 !default;
 
 
 //== Media Queries
