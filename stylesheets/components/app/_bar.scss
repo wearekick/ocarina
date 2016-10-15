@@ -31,7 +31,7 @@
     display: inline-block;
     color: $app-bar-nav-color;
     &:not(:last-child) {
-      margin-right: 1em;
+      margin-right: 1.6em;
     }
     &.active {
       color: $app-bar-nav-active-color;

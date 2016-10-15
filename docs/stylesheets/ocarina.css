@@ -442,6 +442,15 @@ strong {
 .oc-left {
   float: left !important; }
 
+.oc-text-left {
+  text-align: left; }
+
+.oc-text-center {
+  text-align: center; }
+
+.oc-text-right {
+  text-align: right; }
+
 .oc-columns {
   margin-right: -30px;
   margin-left: -30px; }
@@ -552,8 +561,17 @@ strong {
     border-left-color: #B72705; }
 
 .oc-hero {
-  background-image: linear-gradient(-75deg, transparent 85%, rgba(255, 255, 255, 0.14) 15%), linear-gradient(-75deg, transparent 75%, rgba(255, 255, 255, 0.09) 15%), linear-gradient(to top, #9e2204, #B72705);
-  height: 500px; }
+  background-color: #B72705;
+  background-image: linear-gradient(-75deg, transparent 95%, rgba(255, 255, 255, 0.15) 5%), linear-gradient(-75deg, transparent 90%, rgba(255, 255, 255, 0.15) 10%), linear-gradient(-75deg, transparent 85%, rgba(255, 255, 255, 0.15) 15%), linear-gradient(-75deg, transparent 80%, rgba(255, 255, 255, 0.15) 20%), linear-gradient(to top, #9e2204, #B72705);
+  min-height: 500px;
+  font-size: 1.4rem;
+  padding-top: 9em;
+  color: #fff; }
+
+.oc-hero-heading {
+  font-size: 6em;
+  font-weight: 100;
+  margin-bottom: 0; }
 
 .oc-app-bar {
   background-color: #B72705;
@@ -576,7 +594,7 @@ strong {
   display: inline-block;
   color: rgba(255, 255, 255, 0.5); }
   .oc-app-bar-nav a:not(:last-child) {
-    margin-right: 1em; }
+    margin-right: 1.6em; }
   .oc-app-bar-nav a.active {
     color: #fff;
     font-weight: 500; }

@@ -1,5 +1,7 @@
 <div class="oc-container">
+  {% if page.layout != 'home' %}
   <a href="{{site.url}}" class="oc-app-bar-title">Ocarina</a>
+  {% endif %}
   <nav class="oc-app-bar-nav oc-right">
     <a href="docs/scaffolding" class="{% if page.nav =='docs' %}active{% endif %}">Docs</a>
     <a href="https://github.com/wearekick/ocarina" target="_blank">GitHub</a>

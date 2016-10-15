@@ -3,9 +3,21 @@
 //##
 
 .#{$prefix}-hero {
+  background-color: $hero-background-color;
   background-image:
-    linear-gradient(-75deg, transparent 85%, $hero-accent-1-color 15%),
-    linear-gradient(-75deg, transparent 75%, $hero-accent-2-color 15%),
+    linear-gradient(-75deg, transparent 95%, $hero-accent-color 5%),
+    linear-gradient(-75deg, transparent 90%, $hero-accent-color 10%),
+    linear-gradient(-75deg, transparent 85%, $hero-accent-color 15%),
+    linear-gradient(-75deg, transparent 80%, $hero-accent-color 20%),
     linear-gradient(to top, $hero-background-color-darker, $hero-background-color);
-  height: 500px;
+  min-height: $hero-min-height;
+  font-size: $hero-font-size;
+  padding-top: $hero-padding-top;
+  color: #fff;
+}
+
+.#{$prefix}-hero-heading {
+  font-size: 6em;
+  font-weight: 100;
+  margin-bottom: 0;
 }
