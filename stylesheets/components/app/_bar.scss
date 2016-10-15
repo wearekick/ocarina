@@ -10,6 +10,16 @@
   a {
     text-decoration: none;
   }
+
+  &.fixed {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  &.transparent {
+    background: none;
+  }
 }
 
 .#{$prefix}-app-bar-title {

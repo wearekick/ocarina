@@ -71,6 +71,12 @@ $container-lg: (1140px + $gutter-size) !default;
 //
 //##
 
+//** Hero
+$hero-background-color: $primary;
+$hero-background-color-darker: darken($hero-background-color, 5);
+$hero-accent-1-color: rgba(255, 255, 255, 0.14);
+$hero-accent-2-color: rgba(255, 255, 255, 0.09);
+
 //** Menu
 $menu-font-size: 1.6rem !default;
 $menu-font-weight: 400 !default;

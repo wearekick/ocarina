@@ -551,6 +551,10 @@ strong {
     border-left-style: solid;
     border-left-color: #B72705; }
 
+.oc-hero {
+  background-image: linear-gradient(-75deg, transparent 85%, rgba(255, 255, 255, 0.14) 15%), linear-gradient(-75deg, transparent 75%, rgba(255, 255, 255, 0.09) 15%), linear-gradient(to top, #9e2204, #B72705);
+  height: 500px; }
+
 .oc-app-bar {
   background-color: #B72705;
   font-size: 1.6rem;
@@ -558,6 +562,12 @@ strong {
   margin: 0 0 2rem; }
   .oc-app-bar a {
     text-decoration: none; }
+  .oc-app-bar.fixed {
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  .oc-app-bar.transparent {
+    background: none; }
 
 .oc-app-bar-title {
   color: #fff; }
