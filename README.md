@@ -10,7 +10,7 @@ cd ocarina
 
 ## Documentation
 
-An online version of the documentation for Ocarina is hosted on [GitHub pages](https://pages.github.com/) and available at [wearekick.github.com/ocarina](http://wearekick.github.com/ocarina).
+An online version of the documentation for Ocarina is hosted on [GitHub pages](https://pages.github.com/) and available at [wearekick.github.com/ocarina](http://wearekick.github.io/ocarina).
 
 ### Installation
 
@@ -35,17 +35,14 @@ rvm install 2
 
 #### 2. Install Node
 
-You will also need to have NodeJS. This can be installed using [NVM](https://github.com/creationix/nvm). It's recommended to use NodeJS version 4 which has long term support. It's also recommended to update Node's package manager, npm, to version 3.
+You will also need to have NodeJS. This can be installed using [NVM](https://github.com/creationix/nvm). It's recommended to use NodeJS version 6.
 
 ```
 # Install NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 
 # Install NodeJS v4
-nvm install 4
-
-# Update to npm 3 globally
-npm install npm@3 -g
+nvm install 6
 ```
 
 #### 3. Install Dependencies
