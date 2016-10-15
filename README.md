@@ -10,7 +10,7 @@ cd ocarina
 
 ## Documentation
 
-An online version of the documentation for Ocarina is hosted on [GitHub pages](https://pages.github.com/) and available at [wearekick.github.com/ocarina](http://wearekick.github.io/ocarina).
+An online version of the documentation for Ocarina is hosted on [GitHub pages](https://pages.github.com/) and available at [wearekick.github.io/ocarina](http://wearekick.github.io/ocarina).
 
 ### Installation
 
