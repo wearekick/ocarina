@@ -1,0 +1,11 @@
+//== Hero
+//
+//##
+
+.#{$prefix}-hero {
+  background-image:
+    linear-gradient(-75deg, transparent 85%, $hero-accent-1-color 15%),
+    linear-gradient(-75deg, transparent 75%, $hero-accent-2-color 15%),
+    linear-gradient(to top, $hero-background-color-darker, $hero-background-color);
+  height: 500px;
+}
