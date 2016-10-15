@@ -41,7 +41,7 @@ You will also need to have NodeJS. This can be installed using [NVM](https://git
 # Install NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 
-# Install NodeJS v4
+# Install NodeJS v6
 nvm install 6
 ```
 
