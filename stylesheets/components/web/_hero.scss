@@ -4,14 +4,32 @@
 
 .#{$prefix}-hero {
   background-color: $hero-background-color;
-  background-image:
-
-    linear-gradient(100deg, transparent 0%, $hero-accent-color 50%, transparent 50%),
-    linear-gradient(to top, $hero-background-color-darker, $hero-background-color);
   min-height: $hero-min-height;
   font-size: $hero-font-size;
   padding-top: $hero-padding-top;
   color: #fff;
+
+  &.accent {
+    position: relative;
+
+    &::before {
+      content:"";
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-image: linear-gradient(100deg, transparent 0%, $hero-accent-color 50%, transparent 50%);
+      z-index: 1;
+    }
+
+    & > * {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
 }
 
 .#{$prefix}-hero-heading {
