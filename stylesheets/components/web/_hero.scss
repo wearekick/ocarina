@@ -5,10 +5,8 @@
 .#{$prefix}-hero {
   background-color: $hero-background-color;
   background-image:
-    linear-gradient(-75deg, transparent 95%, $hero-accent-color 5%),
-    linear-gradient(-75deg, transparent 90%, $hero-accent-color 10%),
-    linear-gradient(-75deg, transparent 85%, $hero-accent-color 15%),
-    linear-gradient(-75deg, transparent 80%, $hero-accent-color 20%),
+
+    linear-gradient(100deg, transparent 0%, $hero-accent-color 50%, transparent 50%),
     linear-gradient(to top, $hero-background-color-darker, $hero-background-color);
   min-height: $hero-min-height;
   font-size: $hero-font-size;

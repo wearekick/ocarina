@@ -74,7 +74,7 @@ $container-lg: (1140px + $gutter-size) !default;
 //** Hero
 $hero-background-color: $primary !default;
 $hero-background-color-darker: darken($hero-background-color, 5) !default;
-$hero-accent-color: rgba(255, 255, 255, 0.15) !default;
+$hero-accent-color: rgba(255, 255, 255, 0.06) !default;
 $hero-min-height: 500px !default;
 $hero-font-size: 1.4rem !default;
 $hero-padding-top: 9em !default;

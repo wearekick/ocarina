@@ -2,7 +2,7 @@
 //
 //##
 
-.#{$prefix}-app-bar {
+.#{$prefix}-bar {
   background-color: $app-bar-background-color;
   font-size: $app-bar-font-size;
   padding: 1em 0;
@@ -22,11 +22,11 @@
   }
 }
 
-.#{$prefix}-app-bar-title {
+.#{$prefix}-bar-title {
   color: $app-bar-title-color;
 }
 
-.#{$prefix}-app-bar-nav {
+.#{$prefix}-bar-nav {
   a {
     display: inline-block;
     color: $app-bar-nav-color;

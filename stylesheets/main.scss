@@ -44,6 +44,7 @@
 //##
 
 // Core
+@import "components/core/_bar";
 @import "components/core/_button";
 @import "components/core/_menu";
 
@@ -51,5 +52,4 @@
 @import "components/web/_hero";
 
 // App
-@import "components/app/_bar";
 @import "components/app/_tree";
